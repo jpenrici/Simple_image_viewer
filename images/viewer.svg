@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+    viewBox="0 0 600 400"
+    width="600"
+    height="400"
+    id="svg_base">
+    <!--
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        Incluido para link da imagem!
+    -->
+    <title>SVG</title>
+    <text
+        id="title"
+        x="10"
+        y="30"
+        style="font-family:Arial;font-size:32px;fill:#008000">
+            Image
+        </text>
+    <text
+        id="title-mini"
+        x="400"
+        y="50"
+        style="font-family:Arial;font-size:24px;fill:#008000">
+            Miniature
+        </text>
+    <!-- Informes -->
+    <text
+        id="label1"
+        x="400"
+        y="140"
+        style="font-family:Arial;font-size:16px;fill:#008000"></text>       
+    <text
+        id="label2"
+        x="400"
+        y="170"
+        style="font-family:Arial;font-size:16px;fill:#008000"></text>           
+    <text
+        id="label3"
+        x="400"
+        y="190"
+        style="font-family:Arial;font-size:16px;fill:#008000"></text>
+    <!-- Fundo da Imagem -->
+    <rect
+        id="rect1"
+        x="5"
+        y="38"
+        width="360"
+        height="354"
+        style="fill:#FFFFFF"/>
+    <rect
+        id="rect2"
+        x="395"
+        y="58"
+        width="60"
+        height="54"
+        style="fill:#FFFFFF"/>      
+    <!-- Imagens via Link -->       
+    <image 
+        id="original"
+        xlink:href="empty.png"
+        preserveAspectRatio="none"
+        alt="Image Original"
+        x="10"      
+        y="40"
+        width="350"
+        height="350"/>
+    <image 
+        id="mini"
+        xlink:href="empty.png"
+        preserveAspectRatio="none"
+        alt="Image Mini"
+        x="400"     
+        y="60"
+        width="50"
+        height="50"/>                   
+</svg>

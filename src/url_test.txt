@@ -1,0 +1,5 @@
+URL for image loading test:
+
+empty.png
+https://openclipart.org/image/400px/188429
+https://www.debian.org/logos/openlogo-100.jpg

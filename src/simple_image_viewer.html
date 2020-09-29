@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Viewer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/simple_image_viewer.css">
+    <script type="text/javascript" src="../javasripts/simple_image_viewer.js" ></script>
+</head>
+<body onload="clear()">
+    <div id="viewer">
+        <object id="svg_viewer" width="600" height="400" type="image/svg+xml"
+                data="../images/viewer.svg">
+        </object>
+    </div>
+    <div id="data">
+        <label><b>URL:</b></label>
+        <input id="url" type="text" placeholder="Entre com a URL da imagem...">
+        <button type="button" onclick="update()" >Update</button>
+    </div>
+</body>
+</html>
