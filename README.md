@@ -1,4 +1,4 @@
-# Simple_image_viewer
+# simple_image_viewer
 
 Simple Image viewer.<br>
 As an experiment, the image loaded inside another SVG image.<br>
